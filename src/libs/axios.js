@@ -10,7 +10,7 @@ axiosIns.interceptors.request.use((request) => request);
 
 axiosIns.interceptors.response.use(
   (response) => {
-    if (response.config && response.config.requestToastId) {
+    if (response.config) {
       //   show toast
     }
 
@@ -23,11 +23,11 @@ axiosIns.interceptors.response.use(
 
     if (errorResponseData) {
       if (errorResponseData.status === 404) {
-        router.push('/error-404');
+        router.push('/page-404');
       } else if (errorResponseData.status === 500) {
-        router.push('/error-500');
+        router.push('/page-500');
       } else if (errorResponseData.status === 401) {
-        router.push('/no-access');
+        router.push('/page-no-access');
       }
     }
 
