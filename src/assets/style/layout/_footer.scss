@@ -1,0 +1,11 @@
+@use "../variables/variables.scss" as colors;
+
+footer#footer {
+    min-height: 50px;
+    background-color: colors.$dark;
+    color: colors.$light;
+    display: flex;
+    align-items: center;
+    margin-top: 64px;
+    padding: 0 32px;
+}

@@ -1,0 +1,13 @@
+.m-button {
+    text-transform: uppercase;
+    outline: 0;
+    border: 0;
+    padding: 8px;
+    color: #1a2930;
+    cursor: pointer;
+    border-radius: 4px;
+
+    &--primary {
+        background: #f7ce3e;
+    }
+}

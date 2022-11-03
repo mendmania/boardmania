@@ -1,0 +1,44 @@
+@use "../variables/variables.scss" as colors;
+
+html,
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+    user-select: none;
+}
+
+html,
+body,
+#app {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: colors.$secondary;
+    color: colors.$light;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    &:visited,
+    &:active {
+        color: inherit;
+    }
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

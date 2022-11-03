@@ -1,0 +1,11 @@
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 100,
+  "trailingComma": "all",
+  "arrowParens": "always",
+  "singleAttributePerLine": true,
+  "endOfLine": "lf",
+  "insertSpaceBeforeFunctionParenthesis": true
+}

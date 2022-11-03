@@ -1,0 +1,60 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Card title 1",
+      "assignedTo": "Mendim Arifaj",
+      "state": 3,
+      "imgUrl": null,
+      "editing": false
+    },
+    {
+      "id": 2,
+      "title": "Card title 1",
+      "assignedTo": "Mendim Arifaj",
+      "state": 4,
+      "imgUrl": null,
+      "editing": false
+    },
+    {
+      "id": 3,
+      "title": "Card title 1",
+      "assignedTo": "Mendim Arifaj",
+      "state": 4,
+      "imgUrl": null,
+      "editing": false
+    },
+    {
+      "id": 4,
+      "title": "Palo tesha",
+      "assignedTo": "Besarta breznica",
+      "state": 1,
+      "imgUrl": null,
+      "editing": false
+    },
+    {
+      "id": 5,
+      "title": "besarta",
+      "assignedTo": "da",
+      "state": 4,
+      "imgUrl": null,
+      "editing": false
+    },
+    {
+      "id": 6,
+      "title": "dasdad",
+      "assignedTo": "adad",
+      "state": 4,
+      "imgUrl": null,
+      "editing": false
+    },
+    {
+      "id": 7,
+      "title": "gullash",
+      "assignedTo": "dasdsad",
+      "state": 2,
+      "imgUrl": null,
+      "editing": false
+    }
+  ]
+}
