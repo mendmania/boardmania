@@ -20,15 +20,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Installation
 
-**BEFORE YOU INSTALL:** please read the [prerequisites](#prerequisites)
-
-Start with cloning this repo on your local machine:
-
-```sh
-$ git clone https://github.com/madewithlove/technical-assignment-front-end-engineer-mendmania.git
-$ cd technical-assignment-front-end-engineer-mendmania
-```
-
 To install and set up the library, run:
 
 ```sh
